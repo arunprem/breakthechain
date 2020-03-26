@@ -1,0 +1,556 @@
+a:2:{s:6:"expire";i:1511785091;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Title -->
+        <title>Changaramkulam PS</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/psweb/public/favicon.ico">
+        <!-- Stylesheets -->
+        <link href="http://localhost/psweb/public/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="http://localhost/psweb/public/libs/validator/css/bootstrapValidator.min.css">
+        <link href="http://localhost/psweb/public/web/css/fontello.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/psweb/public/web/css/flexslider.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/psweb/public/web/css/owl.carousel.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/psweb/public/web/font/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/psweb/public/web/css/rating.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/psweb/public/web/js/select/css/select2.min.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/psweb/public/web/js/select/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/psweb/public/web/css/style.css" rel="stylesheet" type="text/css">
+        <!--[if IE 9]>
+                <link rel="stylesheet" href="http://localhost/psweb/public/web/css/ie9.css">
+        <![endif]-->
+        <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <link href="http://localhost/psweb/public/web/css/jackbox-ie8.css" rel="stylesheet" type="text/css" />
+                <link rel="stylesheet" href="http://localhost/psweb/public/web/css/ie.css">
+<![endif]-->
+
+        <!--[if gt IE 8]>
+                <link href="http://localhost/psweb/public/web/css/jackbox-ie9.css" rel="stylesheet" type="text/css" />
+        <![endif]-->
+
+        <!--[if IE 7]>
+                <link rel="stylesheet" href="http://localhost/psweb/public/web/css/fontello-ie7.css">
+        <![endif]-->
+
+        <style type="text/css">
+            .no-fouc {display:none;}
+        </style>
+    </head>
+    <body class=" boxed-layout smoke">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 top-nav hidden-sm hidden-xs ">
+                        <ul>
+                            <li><a title="Download FIR registerd in police station" href="http://www.keralapolice.gov.in/public-information/e-services/search-fir" target="_blank">e-FIR</a></li>
+                            <li><a title="Internal Administrative Processing System" href="https://iaps.keralapolice.gov.in" target="_blank">iAPS</a></li>
+                            <li><a title="Service and Payroll Administrative Repository for Kerala" href="http://spark.gov.in/webspark/sparklogin.aspx" target="_blank">SPARK</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 top-nav col-xs-12 col-sm-12" style="text-align: right">
+                        <ul>
+                            <li></li>                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Container -->
+<div class="container" id="smoke">
+    <!-- Header -->
+    <header id="header" class="header">
+        <!-- Main Header -->
+        <div id="main-header">
+
+            <div class="container">
+
+                <div class="row">
+                    <!-- Logo -->
+                    <div id="logo" class="col-lg-8 col-md-8 col-sm-8 ">
+                        <div class="row">
+                            <div id="logo" class="col-lg-2 col-sm-2 col-md-2 "><div ><a href="http://localhost/psweb/changaramkulam-ps"><img src="http://localhost/psweb/public/web/images/logo/kp_logo.png" alt="Logo" class="responsive"></a></div></div>
+                            <div class="col-lg-10 col-sm-10 col-md-10 "><div class="ps-heading">
+                                    <ul>
+                                        <li class="ps-official">Official Website of</li>
+                                        <li class="ps-name">Changaramkulam Police Station</li>
+                                        <li class="dist-name">Malappuram</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                                                                
+                    </div>
+
+                    <!-- /Logo -->
+
+                    <div class="col-lg-4 col-md-4 col-sm-4" >
+                        <form id="search" action="php/search-form.php" method="POST">
+                            <h5><strong>SEARCH</strong> your Police Station</h5>
+                            <div class="form-group">                                       
+                                <select class="form-control" name="state" id="search-ps" placeholder = "">
+                                    <option></option>
+                                </select>
+                            </div>
+                        </form>  
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /Main Header -->
+        <!-- Lower Header -->
+        <div id="lower-header" >
+
+            <div class="container">
+
+                <div id="menu-button">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span>Menu</span>
+                </div>
+                                <ul id="navigation" >
+                    <li class="home-button current-menu-item">
+                        <a href="http://localhost/psweb/changaramkulam-ps"><i class="icons icon-home"></i></a>
+                    </li>
+                    <li class="">
+                        <a href="http://localhost/psweb/changaramkulam-ps/about">ABOUT</a>
+                    </li>
+                    <li class="">
+                        <a href="http://localhost/psweb/changaramkulam-ps/good-works">GOOD WORKS</a>
+                    </li>
+                    <li class="">
+                        <a href="http://localhost/psweb/changaramkulam-ps/notifications">NOTIFICATIONS</a>
+                    </li>
+                    <li class="">
+                        <a href="http://localhost/psweb/changaramkulam-ps/contacts">CONTACTS</a>
+                    </li>
+                    <li class="">
+                        <a href="http://localhost/psweb/changaramkulam-ps/crime-statistics">CRIME STATISTICS</a>
+                    </li>
+                    <li class="">
+                        <a href="http://localhost/psweb/changaramkulam-ps/staff-strength">STAFF STRENGTH</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /Lower Header -->
+    </header>
+    <!-- /Header --><section id="content">
+    <!-- Section -->
+    <section class="section full-width-bg">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                <!-- Main Slider -->
+                <div class="flexslider main-flexslider">
+                    <ul class="slides">
+                                                        <li>
+                                    <img src="http://localhost/psweb/public/web/images/slider/changaramkulam1.jpg"  > 
+                                                                        <div class="great-vibes">
+                                        <p>Changaramkulam Police Station</p>  
+                                    </div>
+                                                                       
+                                </li>
+                                                            <li>
+                                    <img src="http://localhost/psweb/public/web/images/slider/state_01.jpg"  > 
+                                                                        <div class="great-vibes">
+                                        <p>Police Commemoration Day 2017</p>  
+                                    </div>
+                                                                       
+                                </li>
+                                                   
+                    </ul>
+                </div>	
+                <!-- /Main Slider -->
+            </div><div class="col-lg-3 col-md-3 col-sm-12 sidebar">
+                            <div class="banner-wrapper">
+                                <a class="banner" href="http://keralapolice.gov.in/public-information/e-services/search-fir" target="_blank">
+                                    <i class="icons icon-download"></i>
+                                    <h4>DOWNLOAD FIR</h4>
+                                    <p>Download FIR Registered</p>
+                                </a>
+                            </div>
+                            <div class="banner-wrapper">
+                                <a class="banner" href="http://localhost/psweb/changaramkulam-ps/jurisdiction">
+                                    <i class="icons icon-location"></i>
+                                    <h4>JURISDICTION</h4>
+                                    <p>Find our Jurisdiction</p>
+                                </a>
+                            </div>
+                            <div class="banner-wrapper">
+                                <a class="banner " href="http://localhost/psweb/changaramkulam-ps/give-information">
+                                    <i class="icons icon-mail"></i>
+                                    <h4>GIVE INFORMATION</h4>
+                                    <p>Give anonymous information</p>
+                                </a>
+                            </div>
+                            <div class="banner-wrapper">
+                                <a class="banner " href="http://localhost/psweb/changaramkulam-ps/rate-us">
+                                    <i class="icons icon-star"></i>
+                                    <h4>RATE US</h4>
+                                    <p>Rate our services    </p>
+                                </a>
+                            </div>
+                            <div class="banner-wrapper">
+                                <div class=" banner banner-rating">
+
+                                    <h5>RATING OF THE PS</h5>
+                                    <!-- RATING - Form -->
+                                    <form id="ratingsForm">
+                                        <div class="stars">
+                                                                                        <input type="radio" name="star" class="star-1" id="star-1" disabled  />
+                                            <label class="star-1" for="star-1">1</label>
+                                                                                        <input type="radio" name="star" class="star-2" id="star-2" disabled  />
+                                            <label class="star-2" for="star-2">2</label>
+                                                                                        <input type="radio" name="star" class="star-3" id="star-3" disabled  />
+                                            <label class="star-3" for="star-3">3</label>
+                                                                                        <input type="radio" name="star" class="star-4" id="star-4" disabled  />
+                                            <label class="star-4" for="star-4">4</label>
+                                                                                        <input type="radio" name="star" class="star-5" id="star-5" disabled  />
+                                            <label class="star-5" for="star-5">5</label>
+                                              
+                                            <span></span>
+                                   
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>	
+
+
+                        </div>
+
+                    </div>
+
+                </section>
+                <!-- /Section --><!-- Section -->
+<section class="section full-width-bg gray-bg">
+
+    <div class="row">
+
+        <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 white-box" >
+
+                        <h3 class=" no-margin-top">GOOD WORKS</h3>
+                        <!-- Blog Post -->
+                                                        <div class="blog-post ">
+                                    <div class="post-image"> 
+                                                                                    <img src="http://localhost/psweb/public/web/images/article/default_home.jpg" alt="">
+                                                                            </div>
+                                    <h4 class="post-title"><a href="http://localhost/psweb/changaramkulam-ps/good-works/arrest229" >Changaramkulam PS Cr. 116/17 U/S 379 IPC (Vehicle Theft)</a></h4>
+                                    <div class="post-meta">
+                                        <span>November 24, 2017</span>
+                                    </div>
+                                    <p>
+                                        The Police arreseted accused involved in Changaramkulam PS Cr. 116/17 U/S 379 IPC (Vehicle Theft)</p>
+                                    <a href="http://localhost/psweb/changaramkulam-ps/good-works/arrest229" class="button read-more-button big button-arrow">Read More</a>
+                                </div>
+                                
+
+                                                                        <div class="owl-carousel-container">
+                                        <div class="owl-header">
+                                            <h4 style="margin-left: 15px">Recent Good Works</h4>
+                                            <div class="carousel-arrows ">
+                                                <span class="left-arrow"><i class="icons icon-left-dir"></i></span>
+                                                <span class="right-arrow"><i class="icons icon-right-dir"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="owl-carousel" data-max-items="2">
+                                                                                    <!-- Owl Item -->
+                                        <div>
+                                            <div class="blog-post ">
+
+                                                <div class="post-image">                                                       
+                                                                                                            <img src="http://localhost/psweb/public/web/images/article/default_home.jpg" alt="">
+                                                                                                    </div>
+
+                                                <h4 class="post-title"><a href="http://localhost/psweb/changaramkulam-ps/good-works/arrest228">Changaramkulam PS Cr. 74/17 U/S 41 (1) (d), 102 CrPC altered to 379 IPC (Theft)</a></h4>
+                                                <div class="post-meta">
+                                                    <span>November 24, 2017</span>
+                                                </div>
+                                                <p>The Police arreseted accused involved in Changaramkulam PS Cr. 74/17 U/S 41 (1) (d), 102 CrPC alt...</p>
+                                                <a href="http://localhost/psweb/changaramkulam-ps/good-works/arrest228" class="button read-more-button big button-arrow">Read More</a>
+                                            </div>
+                                        </div>
+                                        <!-- /Blog Post -->	
+
+                                        
+
+                                    
+
+                                <!-- Owl Carousel -->
+                                
+                                </div>
+                            </div>
+
+                         
+
+
+                        <!-- /Owl Carousel -->
+
+                    </div>
+                 
+                <div class="col-lg-6 col-md-6 col-sm-12" >
+                                                                <div class="white-box2">
+                            <h3 style="margin: 0;padding-bottom: 10px"><i class="icons icon-chart"></i>Crime Statistics</h3>
+                            <div >
+                                <canvas id="bar-chart" width="600" height="450"></canvas>
+                            </div>
+                        </div>
+                                                                <div class="white-box2">
+                            <h3 style="margin: 0;padding-bottom: 10px"><i class="icons icon-location"></i>CHANGARAMKULAM PS</h3>
+                            <div class="span6" id="map" style="height: 300px;" >
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+
+        </div><!-- Sidebar -->
+<div class="col-lg-3 col-md-3 col-sm-12 sidebar">
+            <div class="sidebar-box white text-center">
+            <h3>Station House Officer</h3>
+            <div class="img-thumbnail" >
+                                    <img src="http://localhost/psweb/public/web/images/sho/changaramkulam.jpg" >
+                
+            </div>
+            <div class="text-center sho-info">MANESH.K.P</div>
+            <div class="text-center sho-rank">Sub Inspector Of Police</div>
+        </div>
+        <!-- Upcoming Events -->
+    <div class="sidebar-box white">
+        <h3>Call in emergency</h3>
+        <div class="img-thumbnail" >
+            <img src="http://localhost/psweb/public/web/images/cs.png" >
+        </div>
+        <div class="img-thumbnail" >
+            <img src="http://localhost/psweb/public/web/images/wh.png" >
+        </div>
+        <div class="img-thumbnail" >
+            <img src="http://localhost/psweb/public/web/images/cl.png" >
+        </div>
+        <div class="img-thumbnail" >
+            <img src="http://localhost/psweb/public/web/images/ha.png" >
+        </div>
+        <div class="img-thumbnail" >
+            <img src="http://localhost/psweb/public/web/images/ra.png" >
+        </div>
+    </div>
+    <div class="sidebar-box white">
+
+        <div class="img-thumbnail" >
+            <img src="http://localhost/psweb/public/web/images/india_gov_in.jpg" >
+        </div>
+        <div class="img-thumbnail" >
+            <img src="http://localhost/psweb/public/web/images/kerala_gov_in.jpg" >
+        </div>
+
+    </div>
+
+</div>
+
+<!-- /Sidebar -->
+</div>
+</section>
+<!-- /Section -->
+</section>    
+<!-- Footer -->
+            <footer id="footer">
+                <!-- Main Footer -->
+                <div id="main-footer">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 ">
+
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 ">
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 menu-container">
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 twitter-widget-area ">
+
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 ">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /Main Footer -->
+                <!-- Lower Footer -->
+                <div id="lower-footer">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 ">
+                            <p class="copyright">.</p>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 ">
+                            <div class="social-media">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Lower Footer -->
+            </footer>
+            <!-- /Footer --
+            <!-- Back To Top -->
+            <a href="#" id="button-to-top"><i class="icons icon-up-dir"></i></a>
+        </div>
+        <!-- /Container --> 
+<!-- JavaScript -->
+<!-- Bootstrap -->
+<!-- jQuery -->
+<script src="http://localhost/psweb/public/web/js/jquery-1.11.0.min.js"></script>
+<script src="http://localhost/psweb/public/web/js/jquery-ui-1.10.4.min.js"></script>
+<!-- Preloader -->
+<script src="http://localhost/psweb/public/web/js/jquery.queryloader2.min.js"></script>
+
+
+<script type = "text/javascript" src = "http://localhost/psweb/public/web/js/bootstrap.min.js" ></script>
+<!-- Modernizr -->
+<script type="text/javascript" src="http://localhost/psweb/public/web/js/modernizr.js"></script>
+<!-- Sliders/Carousels -->
+<script type="text/javascript" src="http://localhost/psweb/public/web/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="http://localhost/psweb/public/web/js/owl.carousel.min.js"></script>
+<!-- Revolution Slider  -->
+
+<script language="javascript" src="http://localhost/psweb/public/web/js/chartjs/Chart.min.js"></script>
+<script language="javascript" src="http://localhost/psweb/public/web/js/select/js/select2.min.js"></script>
+<!-- Main Script -->
+<script type="text/javascript" src="http://localhost/psweb/public/web/js/script.js"></script>
+<!--[if lt IE 9]>
+        <script type="text/javascript" src="http://localhost/psweb/public/web/js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="http://localhost/psweb/public/web/js/script_ie.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    $('html').addClass('no-fouc');
+
+    $(document).ready(function () {
+
+        $('html').show();
+        var window_w = $(window).width();
+        var window_h = $(window).height();
+        var window_s = $(window).scrollTop();
+        $("body").queryLoader2({
+            backgroundColor: '#f2f4f9',
+            barColor: '#63b2f5',
+            barHeight: 4,
+            percentage: false,
+            deepSearch: true,
+            minimumTime: 1000,
+            onComplete: function () {
+
+                $("#").filter(function (index) {
+
+                    return this.offsetTop < (window_s + window_h);
+                }).each(function (index, value) {
+
+                    var el = $(this);
+                    var el_y = $(this).offset().top;
+                    if ((window_s) > el_y) {
+                        $(el).addClass('animated fadeInDown').removeClass('');
+                        setTimeout(function () {
+                            $(el).css('opacity', '1').removeClass('animated fadeInDown');
+                        }, 2000);
+                    }
+
+                });
+            }
+        });
+
+/////////////////////////
+// Bar chart
+            new Chart(document.getElementById("bar-chart"), {
+                type: 'bar',
+                data: {
+                    labels: [2014,2015,2016,2017],
+                    datasets: [
+                                {
+                                label: "Indian Penal Code",
+                                backgroundColor: "rgba(153,50,204,0.8)",
+                                data: [449,319,258,129]
+                            },
+                                {
+                                label: "Special and Local Law",
+                                backgroundColor: "rgba(176,196,222,0.8)",
+                                data: [503,493,204,41]
+                            },
+                        ]
+                },
+                options: {
+                    legend: {display: false},
+                    title: {
+                        display: true,
+                        text: 'Total Cases registered'
+                    },
+                    responsive: true,
+                    scales: {
+                        xAxes: [{
+                                stacked: true,
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Year'
+                                }
+                            }],
+                        yAxes: [{
+                                stacked: true,
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'No. of Cases'
+                                }
+                            }]
+                    }
+                }
+            });
+
+
+
+////////////////////////
+
+
+        $('#search-ps').select2({
+            theme: 'bootstrap',
+            data: [{"text":"Cantonment","id":"cantonment"},{"text":"Karamana","id":"karamana"},{"text":"Kovalam","id":"kovalam"},{"text":"Medical College","id":"medicalcollegetvmcity"},{"text":"Museum","id":"museum"},{"text":"Nemom","id":"nemom"},{"text":"Peroorkada","id":"peroorkada"},{"text":"Petta","id":"pettah"},{"text":"Vizhinjam","id":"vizhinjamcoastal"},{"text":"Poojappura","id":"poojappura"},{"text":"Poonthura","id":"poonthura"},{"text":"Kazhakkuttom","id":"kazhakuttom"},{"text":"Mannanthala","id":"mannanthala"},{"text":"Fort","id":"fort"},{"text":"Vizhinjam","id":"vizhinjam"},{"text":"Vattiyoorkavu","id":"vattiyoorkavu"},{"text":"Vanchiyoor","id":"vanchiyoor"},{"text":"Valiyathura","id":"valiyathura"},{"text":"City Traffic","id":"traffictvmcity"},{"text":"Thumba","id":"thumba"},{"text":"Thiruvallam","id":"thiruvallam"},{"text":"Thampanoor","id":"thampanoor"},{"text":"Sreekaryam","id":"sreekaryam"},{"text":"Vanitha","id":"vanithatvmcity"},{"text":"Anchuthengu","id":"anchuthengu"},{"text":"Aryancode","id":"aryancode"},{"text":"Ayiroor","id":"ayiroor"},{"text":"Balaramapuram","id":"balaramapuram "},{"text":"Chirayinkeezhu","id":"chirayinkeezhu"},{"text":"Kallmbalam","id":"kallmbalam"},{"text":"Kanjiramkulam","id":"kanjiramkulam "},{"text":"Kattakada","id":"kattakada"},{"text":"Kilimanoor","id":"kilimanoor"},{"text":"Malayinkeezhu","id":"malayinkeezhu"},{"text":"Mangalapuram","id":"mangalapuram"},{"text":"Maranalloor","id":"maranalloor"},{"text":"Pallickal","id":"pallickal"},{"text":"Palode","id":"palode"},{"text":"Aruvikkara","id":"aruvikkara"},{"text":"Aryanad","id":"aryanad"},{"text":"Attingal","id":"attingal"},{"text":"Kadinamkulam","id":"kadinamkulam"},{"text":"Marayamuttom","id":"marayamuttom"},{"text":"Naruvamoodu","id":"naruvamoodu"},{"text":"Nedumangad","id":"nedumangad"},{"text":"Neyyardam","id":"neyyardam"},{"text":"Neyyattinkara","id":"neyyattinkara"},{"text":"Pangodu","id":"pangodu"},{"text":"Parassala","id":"parassala"},{"text":"Ponmudi","id":"ponmudi"},{"text":"Poovar","id":"poovar"},{"text":"Pozhiyoor","id":"pozhiyoor"},{"text":"Valiyamala","id":"valiyamala"},{"text":"Varkala","id":"varkala"},{"text":"Vattappara","id":"vattappara"},{"text":"Vellarada","id":"vellarada"},{"text":"Venjaramoodu","id":"venjaramoodu"},{"text":"Vilappilsala","id":"vilappilsala"},{"text":"Vithura","id":"vithura"},{"text":"Kadakkavoor","id":"kadakkavoor"},{"text":"Pothencode","id":"pothencode"},{"text":"Kollam East","id":"kollameast"},{"text":"Pallithottam","id":"pallithottam "},{"text":"Kilikolloor","id":"kilikolloor "},{"text":"Eravipuram","id":"eravipuram "},{"text":"Kollam West","id":"kollamwest "},{"text":"Anchalumoodu","id":"anchalumoodu "},{"text":"Sakthikulangara","id":"sakthikulangara "},{"text":"Kollam Traffic","id":"kollamtraffic"},{"text":"Neendakara Costal","id":"neendakaracostal"},{"text":"Karunagappally","id":"karunagappally "},{"text":"Oachira","id":"oachira "},{"text":"Chavara","id":"chavara "},{"text":"Chavara Thekkumbhagam","id":"chavarathekkumbhagam "},{"text":"Chathannur","id":"chathannoor  "},{"text":"Kottiyam","id":"kottiyam "},{"text":"Paravoor","id":"paravoor "},{"text":"Parippally","id":"parippally "},{"text":"Kollam Vanitha","id":"kollamvanitha"},{"text":"Anchal","id":"anchal"},{"text":"Kundara","id":"kundara"},{"text":"East Kallda","id":"eastkallada"},{"text":"Sasthamcotta","id":"sasthamcotta"},{"text":"Sooranadu","id":"sooranadu"},{"text":"Kottarakkara","id":"kottarakkara"},{"text":"Puthoor","id":"puthoor"},{"text":"Ezhukone","id":"ezhukone"},{"text":"Pooyapally","id":"pooyapally"},{"text":"Punalur","id":"punalur"},{"text":"Pathanapuram","id":"pathanapuram"},{"text":"Kunnicode","id":"kunnicode"},{"text":"Yeroor","id":"yeroor"},{"text":"Kulathupuzha","id":"kulathupuzha"},{"text":"Thenmala","id":"thenmala"},{"text":"Kadakkal","id":"kadakkal"},{"text":"Chadayamangalam","id":"chadayamangalam"},{"text":"Adoor","id":"adoor"},{"text":"Enathu","id":"enathu"},{"text":"Konni","id":"konni"},{"text":"Koodal","id":"koodal"},{"text":"Thannithodu","id":"thannithodu"},{"text":"Pandalam","id":"pandalam"},{"text":"Kodumon","id":"kodumon"},{"text":"Aranmula","id":"aranmula"},{"text":"Koipuram","id":"koipuram"},{"text":"Chittar","id":"chittar"},{"text":"Moozhiyar","id":"moozhiyar"},{"text":"Thiruvalla","id":"thiruvalla"},{"text":"Pulikeezhu","id":"pulikeezhu"},{"text":"Keezhvaipur","id":"keezhvaipur"},{"text":"Perumpetty","id":"perumpetty"},{"text":"Ranny","id":"ranny"},{"text":"Perunadu","id":"perunadu"},{"text":"Vechoochira","id":"vechoochira"},{"text":"Pathanamthitta","id":"pathanamthitta"},{"text":"Pampa","id":"pampa"},{"text":"Vakathanam","id":"vakathanam"},{"text":"Thrikodithanam","id":"thrikodithanam"},{"text":"Gandhinagar","id":"gandhinagar"},{"text":"Thalayolaparambu","id":"thalayolaparambu"},{"text":"Vanitha Ps","id":"kottayamvanitha"},{"text":"Kanjirappally","id":"kanjirappally"},{"text":"Kidangoor","id":"kidangoor"},{"text":"Pallickathodu","id":"pallickathodu"},{"text":"Ettumanoor","id":"ettumanoor"},{"text":"Kottayam East","id":"kottayameast"},{"text":"Kottayam West","id":"kottayamwest"},{"text":"Kottayam Traffic","id":"kottayamtraffic"},{"text":"Kumarakom","id":"kumarakom"},{"text":"Pala","id":"pala"},{"text":"Erattupetta","id":"erattupetta"},{"text":"Chingavanam","id":"chingavanam"},{"text":"Pampady","id":"pampady"},{"text":"Mundakkayam","id":"mundakkayam"},{"text":"Vaikom","id":"vaikom"},{"text":"Changanacherry","id":"changanacherry"},{"text":"Karukachal","id":"karukachal"},{"text":"Ayarkunnam","id":"ayarkunnam"},{"text":"Ramapuram","id":"ramapuram"},{"text":"Marangattupilly","id":"maranagttupilly"},{"text":"Thidanad","id":"thidanad"},{"text":"Melukavu","id":"melukavu"},{"text":"Kaduthuruthy","id":"kaduthuruthy"},{"text":"Kuravilangadu","id":"kuravilangadu"},{"text":"Ponkunnam","id":"ponkunnam"},{"text":"Velloor","id":"velloor"},{"text":"Erumely","id":"erumely"},{"text":"Manarcadu","id":"manarcadu"},{"text":"Manimala","id":"manimala"},{"text":"Chengannur","id":"chengannur"},{"text":"Venmony","id":"venmony"},{"text":"Mavelikara","id":"mavelikara"},{"text":"Nooranad","id":"nooranad"},{"text":"Vallikunnam","id":"vallikunnam"},{"text":"Kurathikad","id":"kurathikad"},{"text":"Mannar","id":"mannar"},{"text":"Edathua","id":"edathua"},{"text":"Kayamkulam","id":"kayamkulam"},{"text":"Kareelakulangara","id":"kareelakulangara"},{"text":"Kanakakunnu","id":"kanakakunnu"},{"text":"Haripad","id":"haripad"},{"text":"Trikkunnapuzha","id":"trikkunnapuzha"},{"text":"Veeyapuram","id":"veeyapuram"},{"text":"Aroor","id":"aroor"},{"text":"Kuthiathodu","id":"kuthiathodu"},{"text":"Pattanakkad","id":"pattanakkad"},{"text":"Cherthala","id":"cherthala"},{"text":"Poochackal","id":"poochackal"},{"text":"Mararikulam","id":"mararikulam"},{"text":"Arthunagal","id":"arthunagal"},{"text":"Muhamma","id":"muhamma"},{"text":"Mannanchery","id":"mannanchery"},{"text":"Alappuzha North","id":"alappuzhanorth"},{"text":"Vanitha Ps","id":"vanithaps"},{"text":"Alappuzha South","id":"alappuzhasouth"},{"text":"Alappuzha Traffic","id":"alappuzhatraffic"},{"text":"Punnapra","id":"punnapra"},{"text":"Ambalapuzha","id":"ambalapuzha"},{"text":"Nedumudy","id":"nedumudy"},{"text":"Pulincunnu","id":"pulincunnu"},{"text":"Ramankary","id":"ramankary"},{"text":"Kainady","id":"kainady"},{"text":"Thottapally Coastal","id":"coastalpsthottapally"},{"text":"Arthunkal Coastal","id":"coastalpsarthunkal"},{"text":"Fort Kochi","id":"fortkochi   "},{"text":"Harbour","id":"harbourekmc  "},{"text":"Mattancherry","id":"mattancherry  "},{"text":"Kannamali","id":"kannamali  "},{"text":"Palluruthy","id":"palluruthy "},{"text":"Thoppumpady","id":"thoppumpady  "},{"text":"Udayamperoor","id":"udayamperoor "},{"text":"Hill Palace","id":"hillpalace  "},{"text":"Ambalamedu","id":"ambalamedu "},{"text":"Ernakulam Town  South","id":"ernakulamtownsouth  "},{"text":"Panangad","id":"panangad  "},{"text":"Kalamassery","id":"kalamassery "},{"text":"Thrikkakara","id":"thrikkakara "},{"text":"Ernakulam Central","id":"ernakulamcentral  "},{"text":"Kadavanthra","id":"kadavanthra  "},{"text":"Mulavukadu","id":"mulavukadu  "},{"text":"Vanitha Ekm City","id":"vanithaekmc  "},{"text":"Ernakulam Town North","id":"ernakulamtownnorth  "},{"text":"Palarivattom","id":"palarivattom  "},{"text":"Eloor","id":"eloor  "},{"text":"Cheranelloor","id":"cheranelloor  "},{"text":"Traffic West","id":"trafficwestekmc"},{"text":"Elamakara","id":"elamakara "},{"text":"Fort Kochi  Coastal","id":"fortkochicoastal"},{"text":"Maradu","id":"maradu"},{"text":"Infopark","id":"infoparkekmc"},{"text":"Traffic East","id":"trafficeastekmc"},{"text":"Aluva East","id":"aluvaeast"},{"text":"Aluva West","id":"aluvawest"},{"text":"Binanipuram","id":"binanipuram"},{"text":"Chengamanadu","id":"chengamanadu"},{"text":"Angamaly","id":"angamaly"},{"text":"North Paravoor","id":"northparavoor"},{"text":"Varapuzha","id":"varapuzha"},{"text":"Vadakkekara","id":"vadakkekara"},{"text":"Puthenvelikkara","id":"puthenvelikkara"},{"text":"Njarakkal","id":"njarakkal"},{"text":"Munambam","id":"munambam"},{"text":"Nedumbassery","id":"nedumbassery"},{"text":"Perumbavoor","id":"perumbavoor"},{"text":"Kodanadu","id":"kodanadu"},{"text":"Kalady","id":"kalady"},{"text":"Ayyampuzha","id":"ayyampuzha"},{"text":"Kuruppampady","id":"kuruppampady"},{"text":"Kottappady","id":"kottappady"},{"text":"Kunnathunadu","id":"kunnathunadu"},{"text":"Thadiyittaparambu","id":"thadiyittaparambu"},{"text":"Muvattupuzha","id":"muvattupuzha"},{"text":"Vazhakulam","id":"vazhakulam"},{"text":"Kalloorkad","id":"Kalloorkad"},{"text":"Pothanikad","id":"pothanikad"},{"text":"Puthencruz","id":"puthencruz"},{"text":"Ramamangalam","id":"ramamangalam"},{"text":"Piravom","id":"piravom"},{"text":"Koothattukulam","id":"koothattukulam"},{"text":"Chottanikkara","id":"chottanikkara"},{"text":"Mulanthuruthy","id":"mulanthuruthy"},{"text":"Kothamangalam","id":"kothamangalam"},{"text":"Oonnukal","id":"oonnukal"},{"text":"Kuttampuzha","id":"kuttampuzha"},{"text":"Edathala","id":"edathala"},{"text":"Thodupuzha","id":"thodupuzha"},{"text":"Kaliyar","id":"kaliyar "},{"text":"Karimannoor","id":"karimannoor "},{"text":"Kanjar","id":"kanjar "},{"text":"Karimkunnam","id":"karimkunnam "},{"text":"Kulamavu","id":"kulamavu "},{"text":"Idukki","id":"idukki "},{"text":"Murikkasseri","id":"murikkasseri "},{"text":"Kanjikuzhy","id":"kanjikuzhy "},{"text":"Karimanal","id":"karimanal "},{"text":"Kattappana","id":"kattappana "},{"text":"Vandanmedu","id":"vandanmedu "},{"text":"Cumbummettu","id":"cumbummettu "},{"text":"Nedumkandam","id":"nedumkandam "},{"text":"Peruvanthanam","id":"peruvanthanam "},{"text":"Upputhara","id":"upputhara "},{"text":"Peerumedu","id":"peerumedu "},{"text":"Kumali","id":"kumali "},{"text":"Vandiperiyar","id":"vandiperiyar "},{"text":"Munnar","id":"munnar "},{"text":"Marayoor","id":"marayoor "},{"text":"Devikulam","id":"devikulam "},{"text":"Santhanpara","id":"santhanpara "},{"text":"Rajakkadu","id":"rajakkadu "},{"text":"Adimali","id":"adimali "},{"text":"Vellathooval","id":"vellathooval "},{"text":"Wagamon","id":"wagamon "},{"text":"Mullaperiyar","id":"mullaperiyar"},{"text":"Muttom","id":"muttom"},{"text":"Thankamani","id":"thankamani"},{"text":"Thrissur Town East","id":"thrissurtowneast"},{"text":"Vanithathrissur","id":"vanithapsthrissur"},{"text":"Traffic Thrissur","id":"trafficthrissur"},{"text":"Thrissur Town West","id":"thrissurtownwest"},{"text":"Nedupuzha","id":"nedupuzha"},{"text":"Ollur","id":"ollur"},{"text":"Munnuthy","id":"munnuthy"},{"text":"Peechi","id":"peechi"},{"text":"Guruvayoor","id":"guruvayoor"},{"text":"Pavarty","id":"pavarty"},{"text":"Peramangalam","id":"peramangalam"},{"text":"Viyoor","id":"viyoor"},{"text":"Guruvayoor  Temple","id":"guruvayoortemple"},{"text":"Thrissur Medical College","id":"thrissurmedicalcollege"},{"text":"Kunnamkulam","id":"kunnamkulam "},{"text":"Erumapetty","id":"erumapetty "},{"text":"Vadakkekad","id":"vadakkekad "},{"text":"Chavakad","id":"chavakad "},{"text":"Wadakanchery","id":"wadakanchery "},{"text":"Cheruthuruthy","id":"cheruthuruthy "},{"text":"Chelakara","id":"chelakara "},{"text":"Pazhayannur","id":"pazhayannur "},{"text":"Irinjalakuda","id":"irinjalakuda "},{"text":"Kattur","id":"kattur "},{"text":"Cherupu","id":"cherupu "},{"text":"Anthikad","id":"anthikad "},{"text":"Kodungallur","id":"kodungallur "},{"text":"Mathilakam","id":"mathilakam "},{"text":"Valapad","id":"valapad "},{"text":"Vadanapilly","id":"vadanapilly "},{"text":"Pudukad","id":"pudukad "},{"text":"Varandarapilly","id":"varandarapilly "},{"text":"Vellikulangara","id":"vellikulangara "},{"text":"Kodakara","id":"kodakara "},{"text":"Chalakudy","id":"chalakudy "},{"text":"Vettilappara Athirappally","id":"vettilapparaathirappally "},{"text":"Malakkappara","id":"malakkappara "},{"text":"Mala","id":"mala "},{"text":"Koratty","id":"koratty "},{"text":"Aloor","id":"aloor"},{"text":"Munakkalkadavu","id":"munakkalkadavu"},{"text":"Azhekkodu","id":"azhekkodu"},{"text":"Vanitha","id":"vanithapsthrissurrl"},{"text":"Areacode","id":"areacode"},{"text":"Changaramkulam","id":"changaramkulam"},{"text":"Edakkara","id":"edakkara"},{"text":"Edavanna","id":"edavanna"},{"text":"Kadampuzha","id":"kadampuzha"},{"text":"Kalikavu","id":"kalikavu"},{"text":"Kalpakanchery","id":"kalpakanchery"},{"text":"Karippur","id":"karippur"},{"text":"Karuvarakundu","id":"karuvarakundu"},{"text":"Kolathur","id":"kolathur "},{"text":"Kondotty","id":"kondotty"},{"text":"Kottakkal","id":"kottakkal"},{"text":"Kuttippuram","id":"kuttippuram"},{"text":"Malappuram","id":"malappuram"},{"text":"Manjeri","id":"manjeri"},{"text":"Mankada","id":"mankada"},{"text":"Melattur","id":"melattur"},{"text":"Nilambur","id":"nilambur"},{"text":"Pandikkad","id":"pandikkad"},{"text":"Parappanangadi","id":"parappanangadi "},{"text":"Perinthalmanna","id":"perinthalmanna"},{"text":"Perumpadappu","id":"perumpadappu"},{"text":"Ponnani Coastal","id":"ponnanicoastal"},{"text":"Ponnani","id":"ponnani"},{"text":"Pookkottumpadam","id":"pookkottumpadam"},{"text":"Pothukal","id":"pothukal"},{"text":"Tanur","id":"tanur"},{"text":"Thenhipalam","id":"thenhipalam"},{"text":"Tirur","id":"tirur"},{"text":"Tirurangadi","id":"tirurangadi"},{"text":"Valanchery","id":"valanchery"},{"text":"Vazhakkad","id":"vazhakkad"},{"text":"Vazhikkadavu","id":"vazhikkadavu"},{"text":"Vengara","id":"vengara"},{"text":"Wandoor","id":"wandoor"},{"text":"Nadakkave","id":"nadakkave"},{"text":"Elathur","id":"elathur"},{"text":"Vellayil","id":"vellayil"},{"text":"Chevayur","id":"chevayur"},{"text":"Kunnamangalam","id":"kunnamangalam"},{"text":"Vanitha","id":"vanithakkdc"},{"text":"Medical College","id":"medicalcollegekkdc"},{"text":"Mavoor","id":"mavoor"},{"text":"Kasaba","id":"kasabakkdc"},{"text":"Panniyankara","id":"panniyankara"},{"text":"Nallalam","id":"nallalam"},{"text":"Feroke","id":"feroke"},{"text":"Beypore","id":"beypore"},{"text":"Marad","id":"marad"},{"text":"Town","id":"townkkdc"},{"text":"Chemmangad","id":"chemmangad"},{"text":"Traffic","id":"traffickkdc"},{"text":"Coastal","id":"coastalkkdc"},{"text":"Vatakara","id":"vatakara  "},{"text":"Edachery","id":"edachery  "},{"text":"Chompala","id":"chompala "},{"text":"Payyoli","id":"payyoli"},{"text":"Meppayur","id":"meppayur  "},{"text":"Nadapuram","id":"nadapuram"},{"text":"Valayam","id":"valayam"},{"text":"Kuttiady","id":"kuttiady"},{"text":"Thottilpalam","id":"thotilpalam "},{"text":"Perambra","id":"perambra"},{"text":"Peruvannamoozhi","id":"peruvannamoozhi "},{"text":"Koorachundu","id":"koorachundu "},{"text":"Thamarassery","id":"thamarassery"},{"text":"Thiruvambady","id":"thiruvambady "},{"text":"Kodenchery","id":"kodenchery "},{"text":"Koyilandy","id":"koyilandy"},{"text":"Atholi","id":"atholi"},{"text":"Koduvally","id":"koduvally"},{"text":"Mukkom","id":"mukkom"},{"text":"Balussery","id":"balussery"},{"text":"Kakkur","id":"kakkur"},{"text":"Kannur Town","id":"kannurtown"},{"text":"Kannur Traffic","id":"kannurtraffic "},{"text":"Kannur City","id":"kannurcity"},{"text":"Edakkad","id":"edakkad "},{"text":"Chakkarakkal","id":"chakkarakkal "},{"text":"Kannapuram","id":"kannapuram"},{"text":"Valapattanam","id":"valapattanam"},{"text":"Mayyil","id":"mayyil"},{"text":"Iritty","id":"iritty"},{"text":"Ulikkal","id":"ulikkal"},{"text":"Aralam","id":"aralam"},{"text":"Karikottakari","id":"karikotakari"},{"text":"Peravoor","id":"peravoor"},{"text":"Kelakam","id":"kelakam"},{"text":"Maloor","id":"maloor"},{"text":"Mattannur","id":"mattannur"},{"text":"Irikkur","id":"irikkur"},{"text":"Taliparamba","id":"taliparamba"},{"text":"Payangadi","id":"payangadi"},{"text":"Pariyaram","id":"pariyaram"},{"text":"Alakode","id":"alakode"},{"text":"Kudiyanmala","id":"kudiyanmala"},{"text":"Sreekandapuram","id":"sreekandapuram"},{"text":"Payyavoor","id":"payyavoor"},{"text":"Payyannur","id":"payyannur"},{"text":"Peringome","id":"peringome"},{"text":"Thalasseri","id":"thalasseri"},{"text":"New Mahe","id":"newmahe"},{"text":"Dharmadam","id":"dharmadam"},{"text":"Panoor","id":"panoor"},{"text":"Chockly","id":"chockly"},{"text":"Kolavallur","id":"kolavallur"},{"text":"Kuthuparamba","id":"kuthuparamba"},{"text":"Kathirur","id":"kathirur"},{"text":"Kannavam","id":"kannavam"},{"text":"Muzhakkunnu","id":"muzhakkunnu"},{"text":"Cherupuzha","id":"cherupuzha"},{"text":"Vanitha","id":"vanitha"},{"text":"Azheekal Coastal","id":"azheekalcoastal"},{"text":"Thalasseri Coastal","id":"thalassericoastal"},{"text":"Manjeswar","id":"manjeswar"},{"text":"Kumbla","id":"kumbla"},{"text":"Kasaragod","id":"kasaragod"},{"text":"Vidyanagar","id":"vidyanagar"},{"text":"Badiadka","id":"badiadka"},{"text":"Adhur","id":"adhur"},{"text":"Bedakam","id":"bedakam"},{"text":"Bekal","id":"bekal"},{"text":"Ambalathara","id":"ambalathara"},{"text":"Hosdurg","id":"hosdurg"},{"text":"Nileshwar","id":"nileshwar"},{"text":"Cheemeni","id":"cheemeni"},{"text":"Chandera","id":"chandera"},{"text":"Chittarikkal","id":"chittarikkal"},{"text":"Rajapuram","id":"rajapuram"},{"text":"Vellarikundu","id":"vellarikundu"},{"text":"Traffic","id":"traffic"},{"text":"Kumbla Coastal","id":"kumblacoastal"},{"text":"Bekal Coastal","id":"bekalcoastal"},{"text":"Trikarpur Coastal","id":"trikaripurcoastal"},{"text":"Kalpetta","id":"kalpetta"},{"text":"Meppadi","id":"meppadi"},{"text":"Meenangadi","id":"meenangadi"},{"text":"Panamaram","id":"panamaram"},{"text":"Kamblakkad","id":"kambalakkad"},{"text":"Vythiri","id":"vythiri"},{"text":"Padinjarathara","id":"padinjarathara"},{"text":"Mananthavdy","id":"mananthavady"},{"text":"Thirunelli","id":"thirunelli"},{"text":"Thalappuzha","id":"thalappuzha"},{"text":"Vellamunda","id":"vellamunda"},{"text":"Sulthan Bathery","id":"sulthanbathery"},{"text":"Ambalavayal","id":"ambalavayal"},{"text":"Pulpally","id":"pulpally"},{"text":"Kenichira","id":"kenichira"}],
+            placeholder: "Select Police Station",
+        });
+
+        $('#search-ps').on('select2:select', function (e) {
+            var psdata = e.params.data;
+            window.location.href = 'http://localhost/psweb/' + psdata.id + '-ps';
+        });
+/////////////////////////////////////////////////////////////////////////////        
+
+
+    });
+
+    function initMap() {
+            var myLatLng = {lat: 10.736290, lng: 76.029040};
+            var iconBase = 'https://maps.google.com/mapfiles/ms/micons/';
+            var mapIcon;
+            mapIcon = "red-pushpin.png";
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: myLatLng
+            });
+
+            var latLng = new google.maps.LatLng(10.736290, 76.029040);
+            // Creating a marker and putting it on the map
+            var marker = new google.maps.Marker({
+                position: latLng,
+                map: map,
+                title: 'CHANGARAMKULAM PS'
+            });
+        }
+
+</script>
+<script defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdnWN6sZyC49RgzIzyQ95bsW7iZRUwMLo&callback=initMap"></script>
+</body>
+</html>
