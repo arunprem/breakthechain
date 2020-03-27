@@ -19,7 +19,7 @@ class Publicregistration_api extends CI_Controller{
         $result['msg'] = "Error saving data";
         $this->form_validation->set_rules('reg_key', 'API Key', 'trim|required');
         $this->form_validation->set_rules('mob_no', 'Mobile Number', 'trim|required|is_unique[public_register_tbl.mob_no]|isMob');
-        $this->form_validation->set_rules('aadhar_no', 'Aadhar', 'trim|required|is_aadhar|is_unique[public_register_tbl.aadhar_no]');
+        $this->form_validation->set_rules('aadhar_no', 'Aadhar', 'trim|required|integer|is_unique[public_register_tbl.aadhar_no]|min_length[12]|max_length[12]');
         $this->form_validation->set_rules('name', 'Name', 'trim|required|alpha_space');
         $this->form_validation->set_rules('status', 'Status', 'trim|required|in_list[0,1]');
         if ($this->form_validation->run()) {
