@@ -5,16 +5,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-class Home extends CI_Controller
-{
-    
-    public function index()
-    {
-        echo "Loading...";
+class Publicregistration_api extends CI_Controller{
+    public function __construct() {
+        parent::__construct();
     }
-    
-  public function register(){
-      echo "registration";
-  }
+    public function register(){
+        echo "registration";
+    }
 }
+
