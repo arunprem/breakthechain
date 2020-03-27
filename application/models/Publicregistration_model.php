@@ -29,7 +29,7 @@ class Publicregistration_model extends CI_Model{
         );
         //echo $sql;
         if ($this->db->insert($this->table, $data)) {
-            return true;
+            return $this->db->insert_id();;
         } else {
             return false;
         }

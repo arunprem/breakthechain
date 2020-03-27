@@ -198,7 +198,13 @@ class MY_Form_validation extends CI_Form_validation {
         settype($num, "string");
         $expectedDigit = substr($num, -1);
         $actualDigit = $this->CheckSumAadharDigit(substr($num, 0, -1));
-        return ($expectedDigit == $actualDigit) ? $expectedDigit == $actualDigit : 0;
+         if($expectedDigit != $actualDigit )
+         {
+             $this->set_message('is_aadhar', 'not a valid aadhar');
+             return false;
+         }else{
+             return true;
+         }
     }
 
     function CheckSumAadharDigit($partial) {
