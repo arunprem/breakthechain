@@ -17,7 +17,11 @@ class MY_Form_validation extends CI_Form_validation {
     }
 
     public function alpha_space($str) {
-        return (!preg_match("/^([a-zA-Z ])+$/i", $str)) ? FALSE : TRUE;
+        if(!preg_match("/^([a-zA-Z ])+$/i", $str)){
+            $this->set_message('alpha_space', 'Not a valid String');
+            return FALSE; 
+        }
+        return true;
     }
 
     function valid_url_format($str) {
