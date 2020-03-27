@@ -17,23 +17,32 @@ class Journey_api extends CI_Controller{
         $result['msg'] = "Error saving data";
         $this->form_validation->set_rules('reg_key', 'API Key', 'trim|required');
         $this->form_validation->set_rules('token_key', 'Token key', 'trim|required');
-        $this->form_validation->set_rules('mob_no', 'Mobile Number', 'trim|required|is_unique[public_register_tbl.mob_no]|isMob');
-        $this->form_validation->set_rules('aadhar_no', 'Aadhar', 'trim|required|integer|is_unique[public_register_tbl.aadhar_no]|min_length[12]|max_length[12]|is_aadhar');
-        $this->form_validation->set_rules('name', 'Name', 'trim|required|alpha_space');
+        $this->form_validation->set_rules('f_purpose_id', 'TPurpose', 'trim|required|integer');
+        $this->form_validation->set_rules('vehicle_no', 'Vehicle No', 'trim|required|alpha_numeric');
+        $this->form_validation->set_rules('f_vtype_id', 'Vehicle Type', 'trim|required|integer');
+        $this->form_validation->set_rules('address', 'Address', 'trim|required');
+        $this->form_validation->set_rules('place_to', 'Place Visiting', 'trim|required|alpha_space');
+        $this->form_validation->set_rules('return_time', 'Retrun Time', 'trim|required');
+        $this->form_validation->set_rules('purpose_of_journey', 'Purpose of Journey', 'trim|required|alpha_space');
         $this->form_validation->set_rules('status', 'Status', 'trim|required|in_list[0,1]');
         if ($this->form_validation->run()) {
             $reg_key = $this->input->post('reg_key');
             if($reg_key == "d441641ceeb90bf8e0d46aedfe0d16ed"){
             $this->load->model('Journey_model', 'JRM');
-            $this->JRM->mob_no = $this->input->post('mob_no');
-            $this->JRM->aadhar_no = $this->input->post('aadhar_no');
-            $this->JRM->name = $this->input->post('name');
+            $this->JRM->f_pr_id = base64_decode($this->input->post('token_key'));
+            $this->JRM->f_purpose_id = $this->input->post('f_purpose_id');
+            $this->JRM->vehicle_no = $this->input->post('vehicle_no');
+            $this->JRM->f_vtype_id = $this->input->post('f_vtype_id');
+            $this->JRM->address = $this->input->post('address');
+            $this->JRM->place_to = $this->input->post('place_to');
+            $this->JRM->return_time = $this->input->post('return_time');
+            $this->JRM->purpose_of_journey = $this->input->post('purpose_of_journey');
             $this->JRM->status = $this->input->post('status');
-            $token_key = $this->JRM->addJourney();
-            if ($token_key) {
+            $JourneyToken = $this->JRM->addJourney();
+            if ($JourneyToken) {
                 $result['success'] = TRUE;
                 $result['status']=200;
-                $result['regToken']= base64_encode($token_key);
+                $result['JourneyToken']= base64_encode($JourneyToken);
                 $result['msg'] = "Journey Added Successfully";
             }
             }else{
