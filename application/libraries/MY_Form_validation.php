@@ -52,7 +52,7 @@ class MY_Form_validation extends CI_Form_validation {
         if (preg_match('/^[6789]\d{9}$/', $phone)) {
             return true;
         } else {
-            $this->form_validation->set_message('isMob', '%s ' . $phone . ' is invalid');
+            $this->set_message('isMob', '%s ' . $phone . ' is invalid');
             return false;
         }
     }

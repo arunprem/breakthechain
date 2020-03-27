@@ -423,7 +423,7 @@ $config['standardize_newlines'] = FALSE;
   |          for backwards compatibility purposes!
   |
  */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = TRUE;
 
 /*
   |--------------------------------------------------------------------------
@@ -442,7 +442,7 @@ $config['global_xss_filtering'] = FALSE;
 if (strcmp($_SERVER["REQUEST_URI"], '/mobile/app_search_number/find_user') === 0) {
     $config['csrf_protection'] = FALSE;
 } else {
-    $config['csrf_protection'] = TRUE;
+    $config['csrf_protection'] = FALSE;
 }
 //$config['csrf_protection'] 	= TRUE;
 $config['csrf_token_name'] = 'ps_tkn';
