@@ -26,11 +26,11 @@ class Permission_api extends CI_Controller{
             $reg_key = $this->input->post('reg_key');
             if($reg_key == "d441641ceeb90bf8e0d46aedfe0d16ed"){
                 $this->load->model('PermissionModel', 'PRM');
-                $this->JRM->mob_no = $this->input->post('mob_no');
-                $this->JRM->aadhar_no = $this->input->post('aadhar_no');
-                $this->JRM->name = $this->input->post('name');
-                $this->JRM->purpose_of_journey = $this->input->post('purpose_of_journey');
-                $this->JRM->status = $this->input->post('status');
+                $this->PRM->mob_no = $this->input->post('mob_no');
+                $this->PRM->aadhar_no = $this->input->post('aadhar_no');
+                $this->PRM->name = $this->input->post('name');
+                $this->PRM->purpose_of_journey = $this->input->post('purpose_of_journey');
+                $this->PRM->status = $this->input->post('status');
 
                 $token_key = $this->PRM->register_permissions();
                 if ($token_key) {
