@@ -1,19 +1,41 @@
 <?php 
    class VerifyLogModel extends CI_Model {
 
+    var $f_pr_id;
+    var $f_j_id;
+    var $f_permission_id;
+    var $verify_flag;
+    var $latitude;
+    var $longitude;
+    var $status;
+    var $verified_by;
+
+    var $table ="verify_log_tbl";
+
       function __construct() { 
          parent::__construct(); 
          
       } 
 
-      public function log_verify($data) { 
-        if ($this->db->insert("verify_log_tbl", $data)) { 
-           return true; 
-       }
-       else
-       {
-           return false; 
-       }
+      public function log_verify() { 
+
+        $data = array(
+            'f_pr_id' => $this->f_pr_id,
+            'f_j_id' => $this->f_j_id,
+            'f_permission_id' => $this->f_permission_id,
+            'verify_flag' => $this->verify_flag,
+            'latitude' => $this->latitude,
+            'longitude' => $this->longitude,
+            'status' => $this->status,
+            'verified_by' => $this->verified_by,
+          
+        );
+
+        if ($this->db->insert($this->table, $data)) {
+            return $this->db->insert_id();;
+        } else {
+            return false;
+        }       
      }
 
      public function viewVerifyLog()
